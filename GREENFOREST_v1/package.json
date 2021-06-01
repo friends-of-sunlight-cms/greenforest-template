@@ -1,0 +1,24 @@
+{
+  "name": "frontend_padawan",
+  "version": "0.0.1",
+  "description": "Example frontend stack",
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "npm run sass && npm run images && npm run copy",
+    "watch": "onchange './build/sass/' -- npm run sass",
+    "sass": "node-sass -r -x --output-style compressed ./build/sass/style.scss -o ./css/",
+    "images": "imagemin-power -rvd ./build images/**/* --out-dir=./",
+    "copy": "copy-files-from-to list.json"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.5.0",
+    "bootstrap": "^4.5.3",
+    "copy-files-from-to": "^3.2.0",
+    "imagemin-power-cli": "^3.0.0",
+    "node-sass": "^4.14.1",
+    "onchange": "^4.0.0",
+    "postcss-cli": "^5.0.0"
+  },
+  "author": "Michal Landsman <landsman@studioart.cz> (https://studiaort.cz)",
+  "license": "MIT"
+}
