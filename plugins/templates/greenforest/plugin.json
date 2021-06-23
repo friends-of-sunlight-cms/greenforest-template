@@ -1,5 +1,5 @@
 {
-    "name": "GreenForest_v1",
+    "name": "GreenForest",
     "description": "8.x greenforest by laszlobodnar",
     "version": "8.0",
     "api": "^8.0",
@@ -12,18 +12,16 @@
     },
 	"responsive": true,
 	"css":[
-	"css/bootstrap.min.css",
-	"css/bootstrap-grid.min.css",
-	"css/bootstrap-reboot.min.css",
-	"css/style.css"
+	  "css/bootstrap.min.css",
+	  "css/bootstrap-grid.min.css",
+	  "css/bootstrap-reboot.min.css",
+	  "css/style.css"
 	],
 	"js":[
-	"js/bootstrap.bundle.min.js",
-	"js/bootstrap.min.js"
+	  "js/bootstrap.bundle.min.js",
+	  "js/bootstrap.min.js"
 	],
     "dark": false,
-    "smiley.count": 10,
-    "smiley.format": "gif",
     "bbcode.buttons": true,
     "box.parent": "div",
     "box.item": "div",
