@@ -1,6 +1,6 @@
 <?php
 use Sunlight\Template;
-defined('_root') or exit
+defined('SL_ROOT') or exit
 ?>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160838059-1"></script>
