@@ -5,24 +5,26 @@
     "environment": {
         "system": "^8.0"
     },
-    "url": "https://laszlobodnar.eu/",
+    "authors": [
+      {"url": "https://laszlobodnar.eu/"}
+    ],
     "layouts": {
         "default": {
             "template": "template.php",
             "slots": ["bottom","top"]
         }
     },
-	"responsive": true,
-	"css":[
-	  "css/bootstrap.min.css",
-	  "css/bootstrap-grid.min.css",
-	  "css/bootstrap-reboot.min.css",
-	  "css/style.css"
-	],
-	"js":[
-	  "js/bootstrap.bundle.min.js",
-	  "js/bootstrap.min.js"
-	],
+    "responsive": true,
+    "css":[
+      "css/bootstrap.min.css",
+      "css/bootstrap-grid.min.css",
+      "css/bootstrap-reboot.min.css",
+      "css/style.css"
+    ],
+    "js":[
+      "js/bootstrap.bundle.min.js",
+      "js/bootstrap.min.js"
+    ],
     "dark": false,
     "bbcode.buttons": true,
     "box.parent": "div",
