@@ -1,0 +1,34 @@
+{
+    "name": "GreenForest",
+    "description": "8.x greenforest by laszlobodnar",
+    "version": "8.0",
+    "environment": {
+        "system": "^8.0"
+    },
+    "authors": [
+      {"url": "https://laszlobodnar.eu/"}
+    ],
+    "layouts": {
+        "default": {
+            "template": "template.php",
+            "slots": ["bottom","top"]
+        }
+    },
+    "responsive": true,
+    "css":[
+      "css/bootstrap.min.css",
+      "css/bootstrap-grid.min.css",
+      "css/bootstrap-reboot.min.css",
+      "css/style.css"
+    ],
+    "js":[
+      "js/bootstrap.bundle.min.js",
+      "js/bootstrap.min.js"
+    ],
+    "dark": false,
+    "bbcode.buttons": true,
+    "box.parent": "div",
+    "box.item": "div",
+    "box.title": "h2",
+    "box.title.inside": true
+}

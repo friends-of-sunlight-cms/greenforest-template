@@ -1,0 +1,16 @@
+
+@import './variables.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&display=swap");
+
+
+/* width */::-webkit-scrollbar {width: 7px;}
+/* Track */::-webkit-scrollbar-track {background: #ddd;}
+/* Handle */::-webkit-scrollbar-thumb {background: #aaa;}
+/* Handle on hover */::-webkit-scrollbar-thumb:hover {background: #888;}
+
+* {
+     scrollbar-width: thin; 
+}
