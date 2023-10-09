@@ -16,14 +16,11 @@
     },
     "responsive": true,
     "css":[
-      "css/bootstrap.min.css",
-      "css/bootstrap-grid.min.css",
-      "css/bootstrap-reboot.min.css",
-      "css/style.css"
+      "assets/css/style.css"
     ],
     "js":[
-      "js/bootstrap.bundle.min.js",
-      "js/bootstrap.min.js"
+      "assets/js/bootstrap.bundle.min.js",
+      "assets/js/bootstrap.min.js"
     ],
     "dark": false,
     "bbcode.buttons": true,

@@ -14,3 +14,13 @@
 * {
      scrollbar-width: thin; 
 }
+
+.menu.level-0{
+     @extend .navbar-nav;
+}
+.menu.level-0 .item{
+     @extend .nav-item;
+}
+.menu .item a {
+     @extend .nav-link;
+}
