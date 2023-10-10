@@ -28,5 +28,8 @@
     "box.parent": "div",
     "box.item": "div",
     "box.title": "h2",
-    "box.title.inside": true
+    "box.title.inside": true,
+    "config_defaults": {
+        "endora": false
+    }
 }

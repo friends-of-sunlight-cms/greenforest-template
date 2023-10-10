@@ -59,5 +59,5 @@ defined('SL_ROOT') or exit
 		<a href="#page-top" class="back-top fixed-bottom" style="display: block;"><i class="bi bi-arrow-up-circle"></i></a>
     </button>
 	</div>
-	<endora>
+	<?= Template::getCurrent()->getConfig()['endora'] ? '<endora>': '' ?>
 </footer>
