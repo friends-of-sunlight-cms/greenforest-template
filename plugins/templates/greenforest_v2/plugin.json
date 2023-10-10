@@ -31,5 +31,8 @@
     "box.title.inside": true,
     "config_defaults": {
         "endora": false
-    }
+    },
+    "events": [
+        {"event": "tpl.menu.item", "script": "event/treemenu_dropdown.php"}
+    ]
 }
