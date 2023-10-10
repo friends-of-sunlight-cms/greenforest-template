@@ -8,7 +8,7 @@ defined('SL_ROOT') or exit
 <!--NAVIGATION-->
 <nav id="navbar-main" class="navbar navbar-expand-lg">
 	<div class="container">
-	  <a class="navbar-brand col-8 ml-3" href="<?php echo Template::siteUrl() ?>">
+	  <a class="navbar-brand col-8 ml-3" href="<?php echo Template::sitePath() ?>">
 	  <span class="logo-main font-weight-bold"><?php echo Template::siteTitle() ?></span> <span class="logo-description"><?php echo Template::siteDescription() ?></span></a>
 	  </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
