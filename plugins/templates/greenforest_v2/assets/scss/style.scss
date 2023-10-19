@@ -15,6 +15,30 @@
      scrollbar-width: thin; 
 }
 
+
+#navbar-main,
+#boxes-top,
+#boxes-bottom {
+     background-image: url("../images/bg.webp");
+     background-size:cover;
+     background-attachment: fixed;
+     color: $light;
+}
+
+#navbarUser {
+     ul {
+          @extend .navbar-nav;
+          li {
+               @extend .nav-item;
+               a {
+                    @extend .nav-link;
+               }
+          }
+     }
+}
+
+
+
 .menu.level-0{
      @extend .navbar-nav;
 }
@@ -24,7 +48,12 @@
 .menu .item a {
      @extend .nav-link;
 }
-
-.menu .item.level-0.dropdown {
+.menu .item.dropdown {
      @extend .dropdown;
+}
+.menu .item.dropdown > a {
+     @extend .dropdown-toggle;
+}
+.menu .level-1 {
+     @extend .dropdown-menu;
 }

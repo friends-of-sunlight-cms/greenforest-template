@@ -20,8 +20,7 @@
       "assets/css/style.css"
     ],
     "js":[
-      "assets/js/bootstrap.bundle.min.js",
-      "assets/js/bootstrap.min.js"
+      "assets/js/bootstrap.bundle.min.js"
     ],
     "dark": false,
     "bbcode.buttons": true,
