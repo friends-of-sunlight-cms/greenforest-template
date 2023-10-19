@@ -24,3 +24,7 @@
 .menu .item a {
      @extend .nav-link;
 }
+
+.menu .item.level-0.dropdown {
+     @extend .dropdown;
+}

@@ -3533,6 +3533,7 @@ textarea.form-control-lg {
 .dropup,
 .dropend,
 .dropdown,
+.menu .item.level-0.dropdown,
 .dropstart,
 .dropup-center,
 .dropdown-center {
